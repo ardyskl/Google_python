@@ -4,6 +4,6 @@ Yayy! successfully setup now! whoohoo!
 Some useful Git commands to push changes to Github repo 
 
 git branch -M main
-git remote add origin https://github.com/ardyskl/Google_python.git
-git branch -M main
-git push -u origin main 
+git push -u origin main
+
+Important - Don't force push, always make changes in terminal 
