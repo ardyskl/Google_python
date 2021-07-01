@@ -1,9 +1,17 @@
 Getting around git and github
 Yayy! successfully setup now! whoohoo!
 
-Some useful Git commands to push changes to Github repo 
+Some useful Git commands to push changes to Github repo
 
+Main Git commands
+
+git add to track and add to git repo
+git commit (enter vim)
+git commit -m "message" (quicker)
+git status
+git log
 git branch -M main
-git push -u origin main
+git push -u origin main (publish on GitHub)
+Important - Don't force push, always make changes in terminal
 
-Important - Don't force push, always make changes in terminal 
+Always use git add and git commit after any file modifications.
