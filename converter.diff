@@ -1,0 +1,18 @@
+--- converter.py	2021-06-18 16:23:01.000000000 +0800
++++ converter2.py	2021-06-27 16:58:32.000000000 +0800
+@@ -3,7 +3,7 @@
+ def to_seconds(hours, minutes, seconds):
+ 	return hours*3600+minutes*60+seconds
+ 
+-print("Welcome to time to seconds converter")
++print("Welcome to our little app")
+ 
+ cont = "y"
+ while(cont.lower() == "y"):
+@@ -17,4 +17,4 @@
+ 
+ 	if cout == "n":
+ 		print("Thanks for using this little app")
+-		quit()
+\ No newline at end of file
++		quit()
