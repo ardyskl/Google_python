@@ -17,4 +17,4 @@ while(cont.lower() == "y"):
 
 	if cout == "n":
 		print("Thanks for using this little app")
-		quit()
+quit()
