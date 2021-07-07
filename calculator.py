@@ -15,7 +15,7 @@ def multiply(a, b):
 def divide(a, b):
     return a / b
 
-print("Welcome to our simple calculator")
+print("Welcome to our simple calculator!")
 
 cont = "y"
 while(cont.lower() == "y"):
@@ -37,7 +37,12 @@ while(cont.lower() == "y"):
 
         elif choice == '/':
             print(num1, "+", num2, "= {0}".format(divide(num1, num2)))
-        break
 
     else:
         print("Please enter a valid operation: Try again")
+
+    cont = input("Do you want another calculation? [y to continue] & [n to exit]: ")
+
+    if cont == "n":
+        print("Thanks for using our calculator app!")
+        quit()
