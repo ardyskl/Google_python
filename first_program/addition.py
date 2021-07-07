@@ -9,8 +9,8 @@ print("Welcome to two number adder app!")
 
 cont = "y"
 while(cont.lower() == "y"):
-    a = int(input("Enter first number: "))
-    b = int(input("Enter second number: "))
+    a = float(input("Enter first number: "))
+    b = float(input("Enter second number: "))
 
     print("Result: {0}".format(add(a, b)))
     print()
