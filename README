@@ -15,3 +15,5 @@ git push -u origin main (publish on GitHub)
 Important - Don't force push, always make changes in terminal
 
 Always use git add and git commit after any file modifications.
+
+Testing a git pull
