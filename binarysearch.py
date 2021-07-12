@@ -44,10 +44,10 @@ while(cont.lower() == "y"):
     if halt == -1:
         print("Key not found")
     else:
-        print("The element " + str(key) + " was found at index position " + str(halt) + ".")
+        print("The key " + str(key) + " was found at index position " + str(halt) + ".")
 # Main -------------------------------- # End
         cont = input("Do you want another search? [y to continue] & [n to exit]: ")
 
         if cont == "n":
-            print("Thanks for using Binary search (build by ardy!)")
+            print("Thanks for using Binary search [build by ardy!]")
             quit()
