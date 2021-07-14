@@ -1,0 +1,10 @@
+PING google.com (216.58.196.14): 56 data bytes
+64 bytes from 216.58.196.14: icmp_seq=0 ttl=116 time=6.959 ms
+64 bytes from 216.58.196.14: icmp_seq=1 ttl=116 time=7.502 ms
+64 bytes from 216.58.196.14: icmp_seq=2 ttl=116 time=7.418 ms
+64 bytes from 216.58.196.14: icmp_seq=3 ttl=116 time=9.561 ms
+64 bytes from 216.58.196.14: icmp_seq=4 ttl=116 time=8.046 ms
+64 bytes from 216.58.196.14: icmp_seq=5 ttl=116 time=7.578 ms
+64 bytes from 216.58.196.14: icmp_seq=6 ttl=116 time=7.918 ms
+64 bytes from 216.58.196.14: icmp_seq=7 ttl=116 time=5.500 ms
+64 bytes from 216.58.196.14: icmp_seq=8 ttl=116 time=7.359 ms
