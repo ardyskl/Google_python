@@ -12,6 +12,7 @@ def random_lst():
         n = random.randint(1, 50)
         # adding numbers to our list
         random_lst.append(n)
+    # return list created
     return random_lst
 # print list
 print(random_lst())
