@@ -14,6 +14,6 @@ def get_userlst():
     return new_list
 
 with open('input_list.csv', mode='w') as file:
-    writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    writer = csv.writer(file, delimiter=' ', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     # writing the input list to csv
     writer.writerow(get_userlst())
