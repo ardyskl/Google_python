@@ -30,8 +30,8 @@ def main():
                 print("Thanks for using our reminder app!")
                 quit()
 
-    except (EOFError):
-        print("\n--- Interrupted exiting ---")
+    except (EOFError, ValueError):
+        print("\n--- Wrong input exiting ---")
 
     except Exception:
         traceback.print_exc(file=sys.stdout)
