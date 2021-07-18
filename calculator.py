@@ -50,8 +50,11 @@ def main():
 
             if cont == "n":
                 print("Thanks for using our calculator app!")
+            else:
+                print("--- Enter [y/n] exiting ---")
+            quit()
 
-    except KeyboardInterrupt:
+    except (EOFError, KeyboardInterrupt):
         print("\n--- Shutdown requested exiting ---")
     except Exception:
         traceback.print_exc(file=sys.stdout)

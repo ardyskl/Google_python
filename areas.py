@@ -123,9 +123,11 @@ def main():
 
             if cont == "n":
                 print("Thanks for using our Areas app!")
-                quit()
+            else:
+                print("--- Enter [y/n] exiting ---")
+            quit()
 
-    except KeyboardInterrupt:
+    except (EOFError, KeyboardInterrupt):
         print("\n--- Shutdown requested exiting ---")
 
     except Exception:

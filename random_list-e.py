@@ -18,6 +18,6 @@ def random_lst():
 print(random_lst())
 
 with open('list.csv', mode='w') as file:
-    writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    writer = csv.writer(file, delimiter=' ', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     # Writing our list to the file
     writer.writerow(random_lst())
