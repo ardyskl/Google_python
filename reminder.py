@@ -24,7 +24,7 @@ def main():
 
             print(reminder())
 
-            cont = input("Do you want another reminder? [y to continue] & [n to exit]: ")
+            cont = input("Do you want another reminder? (y/n): ")
 
             if cont == "n":
                 print("Thanks for using our reminder app!")

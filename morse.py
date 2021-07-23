@@ -72,9 +72,7 @@ def main():
 
             if cont == "n":
                 print("Thanks for using Morse code cipher!")
-            else:
-                print("--- Enter [y/n] exiting ---")
-            quit()
+                quit()
 
     except ValueError:
         print("--- Enter correct Morse code ---")
