@@ -5,12 +5,14 @@ import os
 import sys
 import traceback
 
+@profile
 def main():
 
     try:
 
         MORSE_DICT = { 'A':'.-', 'B':'-...', 'C':'-.-.', 'D':'-..', 'E':'.','F':'..-.', 'G':'--.', 'H':'....', 'I':'..', 'J':'.---', 'K':'-.-', 'L':'.-..', 'M':'--', 'N':'-.', 'O':'---', 'P':'.--.', 'Q':'--.-', 'R':'.-.', 'S':'...', 'T':'-', 'U':'..-', 'V':'...-', 'W':'.--', 'X':'-..-', 'Y':'-.--', 'Z':'--..', '1':'.----', '2':'..---', '3':'...--', '4':'....-', '5':'.....', '6':'-....', '7':'--...', '8':'---..', '9':'----.', '0':'-----', ', ':'--..--', '.':'.-.-.-', '?':'..--..', '/':'-..-.', '-':'-....-', '(':'-.--.', ')':'-.--.-' }
 
+        @profile
         def encrypt(message):
 
             cipher = ''
@@ -24,6 +26,7 @@ def main():
 
             return cipher
 
+        @profile
         def decrypt(message):
 
             message += ' '
@@ -43,12 +46,14 @@ def main():
                         citext = ''
             return decipher
 
+        @profile
         def encrypt_result():
 
             message_string = str(input("Your message: "))
             result = encrypt(message_string.upper())
             return result
 
+        @profile
         def decrypt_result():
 
             dots_dashes = str(input("Enter dots & dashes: "))
