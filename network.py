@@ -1,5 +1,10 @@
+#!/usr/bin/env python3
+
 import shutil
 import psutil
+import requests
+import socket
+
 def check_disk_usage(disk):
     """Verifies that there's enough free space on disk"""
     du = shutil.disk_usage(disk)
@@ -16,13 +21,12 @@ else:
 print("Everything ok")
 # Everything ok
 
-import requests
-import socket
 def check_localhost():
     localhost = socket.gethostbyname('localhost')
     if localhost == '127.0.0.1':
         return True
     return False
+    
 def check_connectivity():
     request = requests.get('http://www.google.com')
     response = request.status_code
