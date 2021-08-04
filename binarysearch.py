@@ -26,7 +26,7 @@ def get_userlst():
     new_list = []
     n = int(input("Enter number of element for this list [list should be sorted]: "))
     for i in range(0, n):
-        element = int(input())
+        element = int(input("Input element: "))
         new_list.append(element)
     print(new_list)
     return new_list
@@ -39,12 +39,12 @@ while(cont.lower() == "y"):
     list = get_userlst()
     key = int(input("Enter key [choose an element]: "))
 
-    halt = binary_search(list, key)
+    position = binary_search(list, key)
 
-    if halt == -1:
+    if position == -1:
         print("Key not found")
     else:
-        print("The key " + str(key) + " was found at index position " + str(halt) + ".")
+        print("The key " + str(key) + " was found at index position " + str(position) + ".")
 # Main -------------------------------- # End
         cont = input("Do you want another search? [y to continue] & [n to exit]: ")
 
