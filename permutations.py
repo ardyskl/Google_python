@@ -35,7 +35,7 @@ def main():
             cont = input("Do you want to permute another text? [y/n]: ")
 
             if cont == "n":
-                print("Thanks for using my Permutation algorithm!")
+                print("Thanks for using my Backtracking algorithm!")
                 quit()
 
     except KeyboardInterrupt:
