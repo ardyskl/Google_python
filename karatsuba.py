@@ -28,10 +28,7 @@ while(cont.lower() == "y"):
     y = int(input("Enter another integer >= 64 digits: "))
 
     multiply = karatsuba(x, y)
-
-    print("\n========== result =========")
     print(multiply)
-    print("===========================\n")
 
     cont = input("Do you want another calculation? [y/n]: ")
 
