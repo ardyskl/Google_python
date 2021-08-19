@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 
+import datetime
 import os
 import math
 import sys
 import traceback
+from datetime import date
 
 print("Welcome to our tasks app!")
 print("[log only significant work per day]")
@@ -15,8 +17,10 @@ while(cont.lower() == "y"):
 
     if choice == 1:
         task = str(input("What was the task? "))
+        today = date.today()
 
-        print("\n=================================")
+        print(today.strftime("\n%d, %b %Y"))
+        print("=================================")
         print(task)
         print("=================================")
 
@@ -39,8 +43,9 @@ while(cont.lower() == "y"):
         task2 = str(input("Enter second task: "))
 
         tasks = [task1, task2]
+        today = date.today()
 
-        print("\nTODAY")
+        print(today.strftime("\n%d, %b %Y"))
         print("=================================")
 
         for element in tasks:
@@ -67,8 +72,10 @@ while(cont.lower() == "y"):
         task3 = str(input("Enter third task: "))
 
         tasks = [task1, task2, task3]
+        today = date.today()
 
-        print("\n=================================")
+        print(today.strftime("\n%d, %b %Y"))
+        print("=================================")
 
         for element in tasks:
             print(element)
@@ -95,8 +102,10 @@ while(cont.lower() == "y"):
         task4 = str(input("Enter fourth task: "))
 
         tasks = [task1, task2, task3, task4]
+        today = date.today()
 
-        print("\n=================================")
+        print(today.strftime("\n%d, %b %Y"))
+        print("=================================")
 
         for element in tasks:
             print(element)
@@ -116,7 +125,7 @@ while(cont.lower() == "y"):
         if choice_input == 'n':
             print("Don't give up.")
 
-    if choice == '5':
+    if choice == 5:
         task1 = str(input("Enter first task: "))
         task2 = str(input("Enter second task: "))
         task3 = str(input("Enter third task: "))
@@ -124,8 +133,10 @@ while(cont.lower() == "y"):
         task5 = str(input("Enter fifth task: "))
 
         tasks = [task1, task2, task3, task4, task5]
+        today = date.today()
 
-        print("\n=================================")
+        print(today.strftime("\n%d, %b %Y"))
+        print("=================================")
 
         for element in tasks:
             print(element)
@@ -145,7 +156,7 @@ while(cont.lower() == "y"):
         if choice_input == 'n':
             print("Don't give up.")
 
-    if choice == '6':
+    if choice == 6:
         task1 = str(input("Enter first task: "))
         task2 = str(input("Enter second task: "))
         task3 = str(input("Enter third task: "))
@@ -154,8 +165,10 @@ while(cont.lower() == "y"):
         task6 = str(input("Enter sixth task: "))
 
         tasks = [task1, task2, task3, task4, task5, task6]
+        today = date.today()
 
-        print("\n=================================")
+        print(today.strftime("\n%d, %b %Y"))
+        print("=================================")
 
         for element in tasks:
             print(element)
@@ -175,7 +188,7 @@ while(cont.lower() == "y"):
         if choice_input == 'n':
             print("Don't give up.")
 
-    if choice == '7':
+    if choice == 7:
         task1 = str(input("Enter first task: "))
         task2 = str(input("Enter second task: "))
         task3 = str(input("Enter third task: "))
@@ -185,8 +198,10 @@ while(cont.lower() == "y"):
         task7 = str(input("Enter seventh task: "))
 
         tasks = [task1, task2, task3, task4, task5, task6, task7]
+        today = date.today()
 
-        print("\n=================================")
+        print(today.strftime("\n%d, %b %Y"))
+        print("=================================")
 
         for element in tasks:
             print(element)
@@ -206,7 +221,7 @@ while(cont.lower() == "y"):
         if choice_input == 'n':
             print("Don't give up.")
 
-    if choice == '8':
+    if choice == 8:
         task1 = str(input("Enter first task: "))
         task2 = str(input("Enter second task: "))
         task3 = str(input("Enter third task: "))
@@ -217,8 +232,10 @@ while(cont.lower() == "y"):
         task8 = str(input("Enter eights task: "))
 
         tasks = [task1, task2, task3, task4, task5, task6, task7, task8]
+        today = date.today()
 
-        print("\n=================================")
+        print(today.strftime("\n%d, %b %Y"))
+        print("=================================")
 
         for element in tasks:
             print(element)
@@ -239,7 +256,7 @@ while(cont.lower() == "y"):
             print("Don't give up.")
 
 
-    if choice == '9':
+    if choice == 9:
         task1 = str(input("Enter first task: "))
         task2 = str(input("Enter second task: "))
         task3 = str(input("Enter third task: "))
@@ -251,8 +268,10 @@ while(cont.lower() == "y"):
         task9 = str(input("Enter ninth task: "))
 
         tasks = [task1, task2, task3, task4, task5, task6, task7, task8, task9]
+        today = date.today()
 
-        print("\n=================================")
+        print(today.strftime("\n%d, %b %Y"))
+        print("=================================")
 
         for element in tasks:
             print(element)
@@ -272,7 +291,7 @@ while(cont.lower() == "y"):
         if choice_input == 'n':
             print("Don't give up.")
 
-    if choice == '10':
+    if choice == 10:
         task1 = str(input("Enter first task: "))
         task2 = str(input("Enter second task: "))
         task3 = str(input("Enter third task: "))
@@ -285,8 +304,10 @@ while(cont.lower() == "y"):
         task10 = str(input("Enter tenth task: "))
 
         tasks = [task1, task2, task3, task4, task5, task6, task7, task8, task9, task10]
+        today = date.today()
 
-        print("\n=================================")
+        print(today.strftime("\n%d, %b %Y"))
+        print("=================================")
 
         for element in tasks:
             print(element)
