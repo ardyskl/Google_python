@@ -10,6 +10,8 @@
 # This has all 3 parts
 # Please see and understand all the lectures before going through this solution
 
+# Quicksort uses divide-and-conquer and it's a recursive algorithm.
+
 '''
 PART 1
 Integers between 1 and 10,000 are in unsorted order. (QuickSort.txt)
