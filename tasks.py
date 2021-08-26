@@ -434,12 +434,12 @@ def tasks():
 print("Welcome to our tasks app!")
 print("[log only significant work per day]")
 
-cont = "y"
-while(cont.lower() == "y"):
+#ont = "y"
+#while(cont.lower() == "y"):
 
-    tasks()
-    cont = input("Do you want to enter more tasks? [y/n]: ")
+tasks()
+    #cont = input("Press [Q] to exit: ")
 
-    if cont == "n":
-        print("Thanks for using Tasks!")
-        quit()
+    #if cont == "q" or "Q":
+        #print("==== Exiting ====")
+sys.exit(0)
